@@ -14,9 +14,9 @@ public class ArmstrongNumberjava {
           sum=sum+Math.pow(rem,3);
           x=x/10;
 
-        }
+        }//it is a armstrong program
         if(y==sum){
-            System.out.println("given number is arm strong");
+            System.out.println("given    number is arm strong");
         }
         else{
             System.out.println("given number is not a armstrong number");
