@@ -6,7 +6,7 @@ public class CompoundInterestJavaProgram {
         System.out.println("enter the principle value");
         double P=input.nextInt();
         System.out.println("enter the rate value");
-        double R=input.nextInt();
+        double R=input.nextInt();//practiced on jan 12
 
         System.out.println("enter the time ");
         double T=input.nextInt();
