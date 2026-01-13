@@ -7,22 +7,21 @@ public class FindNcrAndNpr {
         int n=input.nextInt();
         System.out.println("enter the r value");
         int r=input.nextInt();
-        int numerator;
-        int denominator;
-        int x=(n-r);
         int next=1;
-        int den=1;
         int den1=1;
-        while(n>0){
-            next=next*n;
+        int den=1;
+        int x=1;
+        int denominator;
+        for(int i=1;i<=n;i++){
+            next=next*i;
 
 
         }
-        while(x>0){
-            den1=den1*x;
+        for(int i=1;i<=(n-r);i++){
+            den1=den1*i;
         }
-        while(r>0){
-            den=den*r;
+        for(int i=1;i<=r;i++){
+            den=den*i;
         }
          denominator=den1*den;
         if(denominator!=0){
