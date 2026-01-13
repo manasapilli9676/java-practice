@@ -4,7 +4,8 @@ public class ReverseAStringIn {
     public static void main(String[] args) {
        Scanner input=new Scanner(System.in);
         System.out.println("manasa");
-        System.out.println("hi");// hello
+        System.out.println("hi");
+        System.out.println("hello");// hello
       {
        }
 
