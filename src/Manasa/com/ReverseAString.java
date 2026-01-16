@@ -7,6 +7,7 @@ public class ReverseAString {
         char name = input.next().charAt(0);
         int names;
 
+
     }
 
 
