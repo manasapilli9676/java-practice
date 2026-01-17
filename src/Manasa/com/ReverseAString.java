@@ -5,7 +5,8 @@ public class ReverseAString {
         Scanner input = new Scanner(System.in);
         System.out.println("enter the string to print reverse");
         char name = input.next().charAt(0);
-        int names;
+
+
 
 
 
