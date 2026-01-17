@@ -3,13 +3,15 @@ import java.util.Scanner;
 public class PerfectNumber {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
+        System.out.println("enter the number ");
         int num=input.nextInt();
-        int i=1;
+        int i=0;
         int next=0;
         while(i<num){
             if(num%i==0){
                 next=next+num;
             }
+            i++;
         }
         if(next==num){
             System.out.println("given number is perfect number ");
