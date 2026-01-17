@@ -10,8 +10,8 @@ public class CompoundInterestJavaProgram {
 
         System.out.println("enter the time ");
         double T=input.nextInt();
-        double compoound_interest=P*Math.pow(1+(R/100),T)-P;
-        System.out.println("Compound Interest Java Program "+compoound_interest);
+        double compound_interest=P*Math.pow(1+(R/100),T)-P;
+        System.out.println("Compound Interest Java Program "+compound_interest);
 
     }
 }
