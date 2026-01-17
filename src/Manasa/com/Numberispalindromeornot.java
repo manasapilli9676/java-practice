@@ -8,8 +8,8 @@ public class Numberispalindromeornot {
         int palindrome=0;
         while(num>0){
             int rem=num%10;
-            palindrome=num*10+rem;
-                    num=num/10;
+            palindrome=palindrome*10+rem;
+                    int lastnum=num/10;
         }
         if(palindrome==num){
             System.out.println("given number is palindrome");
