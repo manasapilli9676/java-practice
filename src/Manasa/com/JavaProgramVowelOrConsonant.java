@@ -1,11 +1,18 @@
 package Manasa.com;
 import java.util.Scanner;
 public class JavaProgramVowelOrConsonant {
-    Scanner input=new Scanner(System.in);
-    char x=input.next().charAt(0);
-    String in="'a','e','i','o','u'";
-    if(x==in){
-        System.out.println("given input is consonant ");
-    }
+    public static void main(String[] args) {
 
+
+        Scanner input = new Scanner(System.in);
+        char x = input.next().charAt(0);
+
+        if (x == 'a'||x=='e'||x=='i'||x=='o'||x=='u') {
+            System.out.println("given input is consonant ");
+        }
+        else{
+            System.out.println("given input is consonant");
+        }
+
+    }
 }
