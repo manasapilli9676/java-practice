@@ -6,7 +6,7 @@ public class Java {
         int num=input.nextInt();
         int i=1;
         int next=0;
-        while(i<=num){
+        while(i<num){
             if(num%i==0){
                 System.out.println(i);
             }
