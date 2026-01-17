@@ -8,12 +8,20 @@ public class HCFOfTwoNumbersProgram {
         System.out.println("enter the second value");
         int num2=input.nextInt();
         int i=1;
+        int next=1;
         while(i>0){
             if(num1%i==0&num2%i==0){
+                 next=i;
 
+            if(i>next){
+                System.out.println(i);
+            }
+            else{
+                System.out.println(next);
+            }
             }
             i++;
-            System.out.println("hcf of given numbers is "+i);
+            
         }
 
     }
