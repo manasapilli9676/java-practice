@@ -8,14 +8,16 @@ public class HCFOfTwoNumbersProgram {
         System.out.println("enter the second value");
         int num2=input.nextInt();
         int i=1;
-        while(i>0){
+        int hcf=1;
+        while(i<=num1&&i<=num2){
             if(num1%i==0&num2%i==0){
-                int next=i;
+                hcf=i;
             }
             i++;
 
             
         }
+        System.out.println("hcf of the given numbers are "+hcf);
 
     }
 }
