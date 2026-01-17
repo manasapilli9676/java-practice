@@ -5,6 +5,7 @@ public class JavaProgramVowelOrConsonant {
 
 
         Scanner input = new Scanner(System.in);
+        System.out.println("enter the charecter");
         char x = input.next().charAt(0);
 
         if (x == 'a'||x=='e'||x=='i'||x=='o'||x=='u') {
