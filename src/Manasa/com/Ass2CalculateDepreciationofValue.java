@@ -13,7 +13,5 @@ public class Ass2CalculateDepreciationofValue {
         int total_loss=actual_cost-sell_cost;
         int deprecaitevalue=total_loss/years;
         System.out.println("Calculate Depreciation of Value "+deprecaitevalue);
-
-
     }
 }
