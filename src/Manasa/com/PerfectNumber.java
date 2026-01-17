@@ -9,7 +9,7 @@ public class PerfectNumber {
         int next=0;
         while(i<num){
             if(num%i==0){
-                next=next+num;
+                next=next+i;
             }
             i++;
         }
