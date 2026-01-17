@@ -9,7 +9,7 @@ public class Numberispalindromeornot {
         while(num>0){
             int rem=num%10;
             palindrome=palindrome*10+rem;
-                    int lastnum=num/10;
+                    num=num/10;
         }
         if(palindrome==num){
             System.out.println("given number is palindrome");
