@@ -8,9 +8,10 @@ public class Java {
         int next=0;
         while(i<num){
             if(num%i==0){
+                next=next+i;
                 System.out.println(i);
             }
-            next=next+i;
+
         }
             if(next==num){
                 System.out.println("the given number is perfect number");
