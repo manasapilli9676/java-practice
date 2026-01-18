@@ -7,7 +7,7 @@ public class SwitchCase {
         switch(fruit){
             case "mango":
                 System.out.println("mango is summer seasonal fruit ");
-                break;
+              break;
             case "guava":
                 System.out.println("guava is my favourite fruit ");
                 break;
