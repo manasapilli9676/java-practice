@@ -4,7 +4,7 @@
 import java.util.Scanner;
 public class FunctionsOrmethods {
     public static void main(String[] args) {
-        sum();
+        sum2();
 //sum();
 //sum();
 //    }
