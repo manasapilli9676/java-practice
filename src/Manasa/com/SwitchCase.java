@@ -23,7 +23,7 @@ public class SwitchCase {
             case "guava"->System.out.println("guava is my favourite fruit ");
             case "watermelon"->System.out.println("watermelon consist of many seeds ");
             case "grapes"->System.out.println("i hate grapes ");
-            default->System.out.println("please enter the valid fruit name ");
+            default-> System.out.println("please enter the valid fruit name ");
 
         }
     }
