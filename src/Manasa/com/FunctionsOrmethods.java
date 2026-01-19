@@ -1,4 +1,5 @@
 //print sum of two numbers
+
  package Manasa.com;
 import java.util.Scanner;
 public class FunctionsOrmethods {
@@ -13,7 +14,7 @@ sum();
         int sum=num1+num2;
         System.out.println("the sum is "+sum);
     }
-    /*return_type name(){
+    /*return_type name(){  return
      //body
      return statement;
      }
