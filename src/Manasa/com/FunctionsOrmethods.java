@@ -4,7 +4,8 @@
 import java.util.Scanner;
 public class FunctionsOrmethods {
     public static void main(String[] args) {
-        sum2();
+        int ans=sum2();
+        System.out.println(ans);
 //sum();
 //sum();
 //    }
@@ -26,9 +27,9 @@ public class FunctionsOrmethods {
         Scanner input = new Scanner(System.in);
         int num1 = input.nextInt();
         int num2 = input.nextInt();
-
-        int sum = num1 + num2;
-        return sum2();
+        int sum= num1 + num2;
+        return sum;//here the statement traverse will break
+       // System.out.println("no more statement will execuite here");
     }
 
     static void sum() {
