@@ -2,7 +2,7 @@ package Manasa.com;
 import java.util.Scanner;
 public class Functions {
     public static void main(String[] args) {
-        int ans=sum2(2,4);
+        int ans=sum2(20,4);
         System.out.println(ans);
 
     }
