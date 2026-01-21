@@ -16,8 +16,8 @@ public class Swap {
 
 
     }
-    static void changeName(String name){
-        name="pilli";
+    static void changeName(String naae){
+        naae="pilli";
     }
     static void swap(int a,int b){
         int temp=a;

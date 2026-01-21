@@ -2,7 +2,7 @@ package Manasa.com;
 
 public class Passsingexample {
     public static void main(String[] args) {
-        String name="manasa";
+        String name="manasaaa";
         greet(name);
     }
     static  void greet(String naam){
