@@ -7,9 +7,11 @@ public class FunctionOverloading {
 
     }
     static void num1(int a){
+        System.out.println("first one");
         System.out.println(a);
     }
     static void num1(String name){
+        System.out.println("second one");
         System.out.println(name);
 
     }
