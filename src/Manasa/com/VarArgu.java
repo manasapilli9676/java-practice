@@ -8,6 +8,7 @@ public class VarArgu {
     }//sequence should folllow  first there ae only two integers  later it has strings
     static void multi(int a,int b,String name,int ...v){
         System.out.println(Arrays.toString(v));
+        System.out.println(name);
     }
 
         static void fun(int ...v){//only three dots
