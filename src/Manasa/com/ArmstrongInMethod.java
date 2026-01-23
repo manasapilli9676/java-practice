@@ -3,10 +3,11 @@ import java.util.Scanner;
 public class ArmstrongInMethod {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
-        int n=input.nextInt();
+//        int n=input.nextInt();
+//
+//        System.out.println(isArmstrong(n));
 
-        System.out.println(isArmstrong(n));
-        for(n=100;n<=999;n++){
+        for(int n=100;n<=999;n++){
             if(isArmstrong(n)){
                 System.out.println(n+ " ");
             }
