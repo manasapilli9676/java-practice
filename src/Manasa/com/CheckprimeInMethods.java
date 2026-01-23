@@ -8,7 +8,7 @@ public class CheckprimeInMethods {
         System.out.println("enter the number ");
         int n= input.nextInt();
         boolean ans=isprime(n);
-        System.out.println();
+        System.out.println(ans);
     }
 
     static boolean isprime(int n) {
