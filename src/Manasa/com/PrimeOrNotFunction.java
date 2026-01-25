@@ -5,6 +5,11 @@ public class PrimeOrNotFunction {
         Scanner input=new Scanner(System.in);
         int num=input.nextInt();
         boolean prime=prime(num);
+        if (prime) {
+            System.out.println("Prime number");
+        } else {
+            System.out.println("Not a prime number");
+        }
 
     }
     static  boolean prime(int num){
