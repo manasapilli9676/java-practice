@@ -4,7 +4,7 @@ public class PrimeOrNotFunction {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         int num=input.nextInt();
-        boolean prime=
+        boolean prime=prime(num);
 
     }
     static  boolean prime(int num){
@@ -12,5 +12,8 @@ public class PrimeOrNotFunction {
             return false;
         }
         for(int i=2;i<=Math.sqrt(num);i++);
+        if(num%i==0){
+
+        }
 
 }
