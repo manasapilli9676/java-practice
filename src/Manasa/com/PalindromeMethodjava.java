@@ -16,11 +16,16 @@ public class PalindromeMethodjava {
 
     }
     static boolean palin(int x){
+
        int num=x;
-        int rem=x%10;
-        int next=1;
-        x=x/10;
-         next=next*10+x;
+       while(num>0) {
+           int rem = x % 10;
+           int next = 0;
+
+           next = next * 10 + rem;
+           x = x / 10;
+       }
+
          if(next==x){
              return true;
 
