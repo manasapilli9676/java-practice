@@ -4,9 +4,9 @@ public class PalindromeMethodjava {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         int num=input.nextInt();
-        int x=num;
+
         int next=1;
-        boolean palindrom=palin(x);
+        boolean palindrom=palin(num);
         if(palindrom){
             System.out.println("it is a palindrom");
         }
@@ -15,25 +15,21 @@ public class PalindromeMethodjava {
         }
 
     }
-    static boolean palin(int x){
+    static boolean palin(int num){
+        int next = 0;
+        int x=num;
 
-       int num=x;
+
        while(num>0) {
            int rem = x % 10;
-           int next = 0;
-
            next = next * 10 + rem;
            x = x / 10;
        }
 
-         if(next==x){
-             return true;
 
-         }
-         else{
-             return false;
+    return num==next;
          }
     }
 
 
-}
+
