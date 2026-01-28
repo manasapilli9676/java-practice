@@ -3,9 +3,16 @@ import java.util.Scanner;
 public class RealNumMethod {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
+        int n=input.nextInt();
+        realnum(n);
 
     }
-    static int realnum(int num){
+    static void realnum(int num){
+        int i=1;
+        for( i=1;i<=num;i++){
+            System.out.println(i);
+
+        }
 
     }
 }
