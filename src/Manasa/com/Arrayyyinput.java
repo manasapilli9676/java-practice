@@ -15,19 +15,17 @@ public class Arrayyyinput {
         for( int i=0;i<arr.length;i++){
             arr[i]=input.nextInt();
 
-            System.out.println(arr[i]);
+//            System.out.println(arr[i]);
         }
-////        for(int i=0;i<arr.length;i++) {
-//                    System.out.print(arr[i] + "  " );
-////        }
-//        for(int num:arr){;//num represent the  element of array
-//            System.out.println(num);//
+        for(int i=0;i<arr.length;i++) {
+                    System.out.print(arr[i] + "  " );
+        }
+//        for(int i=0;i<arr.length;i++) {
+//            System.out.print(arr[i] + "  " );
 //        }
-//        String[] str=new String[4];
-//for(int i=0;i<str.length;i++){
-//    str[i]=input.next();
-//}
-//        System.out.println(Arrays.toString(str));
+        for(int num:arr){
+            System.out.print(num + " ");
+        }
 
     }
 }
