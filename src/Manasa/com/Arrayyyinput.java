@@ -5,6 +5,7 @@ public class Arrayyyinput {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         int[] arr=new int[5];
+        //array of object
 //        arr[0]=2;
 //        arr[1]=3;
 //        arr[2]=4;
@@ -17,15 +18,15 @@ public class Arrayyyinput {
 
 //            System.out.println(arr[i]);
         }
-        for(int i=0;i<arr.length;i++) {
-                    System.out.print(arr[i] + "  " );
-        }
+//        for(int i=0;i<arr.length;i++) {
+//                    System.out.print(arr[i] + "  " );
+//        }
 //        for(int i=0;i<arr.length;i++) {
 //            System.out.print(arr[i] + "  " );
-//        }
-        for(int num:arr){
-            System.out.print(num + " ");
-        }
+////        }
+        System.out.println(arr[2]);
+//conversion of int into string
+        System.out.println(Arrays.toString(arr));
 
     }
 }
