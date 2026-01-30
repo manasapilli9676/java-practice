@@ -17,7 +17,11 @@ public class ArrayOfobj {
         for(int i=0;i<str.length;i++){
             str[i]=input.next();
         }
+//        str[1]="paru";
         System.out.println(Arrays.toString(str));
+        str[1]="paru";
+        System.out.println(Arrays.toString(str));
+
 
     }
 }
