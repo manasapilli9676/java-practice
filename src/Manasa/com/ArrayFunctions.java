@@ -6,6 +6,7 @@ public class ArrayFunctions {
         Scanner input=new Scanner(System.in);
         change(arr);
     }
+
     static void change(int[] arr){
         arr[0]=3;
         arr[1]=32;
