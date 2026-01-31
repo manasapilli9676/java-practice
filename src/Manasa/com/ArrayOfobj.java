@@ -15,6 +15,7 @@ public class ArrayOfobj {
 //        }
 
 //
+
         String[] str=new String[5];
         for(int i=0;i<str.length;i++){
             str[i]=input.next();
