@@ -12,8 +12,12 @@ public class TwodArrays {
             }
 
         }
-        for (int row=0;row<num.length;row++){
-            System.out.println(Arrays.toString(num[row]));
+//        for (int row=0;row<num.length;row++){
+//            System.out.println(Arrays.toString(num[row]));
+//        }
+        for(int[] a:num){
+            System.out.println(Arrays.toString(a));
+
         }
 //        int[][] arr={
 //                {1,2,3},
