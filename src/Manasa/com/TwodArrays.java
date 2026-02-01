@@ -12,12 +12,15 @@ public class TwodArrays {
             }
 
         }
+        for (int row=0;row<num.length;row++){
+            System.out.println(Arrays.toString(num[row]));
+        }
 //        int[][] arr={
 //                {1,2,3},
 //                {4,5,6},
 //                {65,6,57},
 //        };
-        System.out.print(Arrays.deepToString(num));
+
 
     }
 }
