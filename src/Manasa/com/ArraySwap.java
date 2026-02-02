@@ -13,8 +13,8 @@ public class ArraySwap {
     }
     static void swap(int[] arr1,int index1,int index2){
        int temp=arr1[index1];
-       arr1[index2]=arr1[index1];
-       temp=arr1[index2];
+       arr1[index1]=arr1[index2];
+       arr1[index2]=temp;
 
     }
 }
