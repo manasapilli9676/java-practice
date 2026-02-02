@@ -7,6 +7,7 @@ public class MaxInArray {
 
     }
     static void max(int[] arr1,int max){
+        for(int i=0;i<Arrays.length();)
 
     }
 
