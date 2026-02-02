@@ -6,6 +6,8 @@ public class MaxInArray {
         int[] arr1={1,2,3,5,4,8};
 
     }
-    static void max(int[] arr1,int max)
+    static void max(int[] arr1,int max){
+
+    }
 
 }
