@@ -22,8 +22,7 @@
 //        System.out.println(Arrays.toString(ans));
 //
 //
-//    }
-//}
+//
 package Manasa.com;
 import java.util.Scanner;
 import java.util.Arrays;
@@ -47,6 +46,7 @@ public class BuildArrayfromPermutation {
         for (int i = 0; i < arr.length; i++) {
             ans[i] = arr[arr[i]];
         }
+
 
         System.out.println("Original array: " + Arrays.toString(arr));
         System.out.println("Built array: " + Arrays.toString(ans));
