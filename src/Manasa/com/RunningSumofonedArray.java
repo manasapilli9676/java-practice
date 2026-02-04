@@ -6,5 +6,6 @@ public class RunningSumofonedArray {
         Scanner input=new Scanner(System.in);
         int x=input.nextInt();
 
+
     }
 }
