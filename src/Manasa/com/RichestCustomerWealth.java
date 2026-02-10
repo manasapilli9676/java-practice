@@ -9,10 +9,12 @@ public class RichestCustomerWealth {
         int[][] sale=new int[customer][seller];
         for(int i=0;i<customer;i++){
             for(int j=0;j<seller;j++){
+                sale[customer][seller]=input.nextInt();
 
             }
         }
+        for(int i=0;i<customer;i++){
 
-
+        }
     }
 }
