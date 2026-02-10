@@ -20,7 +20,10 @@ public class RichestCustomerWealth {
                 sum=sum+sale[i][j];
 
             }
-            if(sum>m)
+            if(sum>maxwealth){
+                maxwealth=sum;
+            }
         }
+        System.out.println("richestcustomer wealth="+maxwealth);
     }
 }
