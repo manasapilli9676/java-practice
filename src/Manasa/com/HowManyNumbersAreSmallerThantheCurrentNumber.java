@@ -7,15 +7,24 @@ public class HowManyNumbersAreSmallerThantheCurrentNumber {
         int num=0;
         int x=input.nextInt();
         int[] arr1=new int[x];
-        int count=0;
+int i=0;
+//        int count=0;
+        for(i=0;i<x;i++) {
+            arr1[i]=input.nextInt();
+        }
         //int[] arr1[0]=0;
-        for(int i=0;i<x;i++) {
+        for( i=0;i<x;i++) {
+
+            int count=0;
             for(int j=0;j<x;j++){
-            if (arr1[i]<arr1[j]){
-                    count++;
+                if(i!=j) {
+                    if (arr1[i] > arr1[j]) {
+                        count++;
+                    }
                 }
             }
+            System.out.println(count);
         }
-        System.out.println(count);
+//        System.out.println(count);
     }
 }
