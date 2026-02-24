@@ -6,13 +6,18 @@ public class LinearSearch {
         Scanner input=new Scanner(System.in);
         //search in the array return the index if the element is found
         //other wise if the element is not found return the -1;
+        System.out.println("size of the array");
         int x=input.nextInt();
         int[] arr=new int[x];
+        System.out.println("enter the values");
         int required =input.nextInt();
         for(int i=0;i<x;i++){
             arr[i]=input.nextInt();
 
         }
+
+       int ans= linearsearch(arr[i],required);
+        System.out.println(ans);
 
     }
     static int linearsearch(int[] arr,int required){
