@@ -8,13 +8,15 @@ public class LinearSearch {
         //other wise if the element is not found return the -1;
         System.out.println("size of the array");
         int x=input.nextInt();
-        int[] arr=new int[x];
         System.out.println("enter the values");
-        int required =input.nextInt();
+        int[] arr=new int[x];
+
         for(int i=0;i<x;i++){
             arr[i]=input.nextInt();
 
         }
+        System.out.println("enter the required value");
+        int required =input.nextInt();
 
        int ans= linearsearch(arr,required);
         System.out.println(ans);
