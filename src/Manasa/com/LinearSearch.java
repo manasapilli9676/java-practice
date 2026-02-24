@@ -16,7 +16,7 @@ public class LinearSearch {
 
         }
 
-       int ans= linearsearch(arr[i],required);
+       int ans= linearsearch(arr,required);
         System.out.println(ans);
 
     }
