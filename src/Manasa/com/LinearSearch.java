@@ -20,7 +20,7 @@ public class LinearSearch {
 
        int ans= linearsearch(arr,required);
         System.out.println(ans);
-
+//
     }
     static int linearsearch(int[] arr,int required){
         if(arr.length==0){
