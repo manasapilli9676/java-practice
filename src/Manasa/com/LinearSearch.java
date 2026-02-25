@@ -14,7 +14,7 @@ public class LinearSearch {
         for(int i=0;i<x;i++){
             arr[i]=input.nextInt();
 
-        }//
+        }//hi
         System.out.println("enter the required value");
         int required =input.nextInt();
 
