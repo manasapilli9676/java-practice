@@ -1,5 +1,6 @@
 package Manasa.com;
 import java.util.Scanner;
+import java.util.Arrays;
 public class SearchinStrings {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -7,6 +8,7 @@ public class SearchinStrings {
         char element = 'n';
         boolean ans =search2(name,element);
         System.out.println(ans);
+        System.out.println(Arrays.toString(name.toCharArray()));
     }
     // for each loop
     static boolean search2(String name,char element){
