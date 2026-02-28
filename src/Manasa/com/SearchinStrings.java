@@ -5,7 +5,7 @@ public class SearchinStrings {
         Scanner input = new Scanner(System.in);
         String name="manasa";
         char element = 'n';
-        boolean ans =search(name,element);
+        boolean ans =search2(name,element);
         System.out.println(ans);
     }
     // for each loop
