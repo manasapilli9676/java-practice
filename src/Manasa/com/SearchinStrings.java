@@ -8,6 +8,20 @@ public class SearchinStrings {
         boolean ans =search(name,element);
         System.out.println(ans);
     }
+    // for each loop
+    static boolean search2(String name,char element){
+        if(name.length()==0){
+            return false;
+        }
+        for(char ch:name.toCharArray()){
+            if(ch==element){
+                return true;
+
+            }
+
+        }
+        return false;
+    }
     static boolean search(String name,char element){
         if(name.length()==0){
             return false;
