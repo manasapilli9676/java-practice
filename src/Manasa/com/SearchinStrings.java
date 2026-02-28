@@ -3,9 +3,10 @@ import java.util.Scanner;
 public class SearchinStrings {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        String name="ram";
-        char element = 'm';
+        String name="manasa";
+        char element = 'n';
         boolean ans =search(name,element);
+        System.out.println(ans);
     }
     static boolean search(String name,char element){
         if(name.length()==0){
