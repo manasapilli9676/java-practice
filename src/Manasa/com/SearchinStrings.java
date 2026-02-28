@@ -10,7 +10,7 @@ public class SearchinStrings {
         System.out.println(ans);
         System.out.println(Arrays.toString(name.toCharArray()));
     }
-    // for each loop
+    //for each loop
     static boolean search2(String name,char element){
         if(name.length()==0){
             return false;
