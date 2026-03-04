@@ -10,6 +10,7 @@ public class FindEvenNumberofdigits {
         for(int i=0;i < arr.length;i++){
             arr[i]=input.nextInt();
         }
+
     }
     static int finding(int[] arr){
         int count=0;
@@ -31,10 +32,16 @@ static boolean even(int num){
        */
         return numberofDigits%2==0;
 }
+static int digits2(int num) {
+    if (num < 0) {
+        num = num * -1;
+
+    }
+    return (int) (Math.log10(num)) + 1;
+}
 static int digits(int num){
         if(num<0){
             num=num*-1;
-
         }
         if(num==0){
             return 1;
