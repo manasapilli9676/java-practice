@@ -2,7 +2,11 @@ package Manasa.com;
 import java.util.Scanner;
 /*
 * algorithm
-* 1.f*/
+* 1.find the middle element
+* 2.taget>mid  if search int hte right
+* else in left
+* if target==mid
+* */
 import java.util.Arrays;
 public class Binarysearch {
     public static void main(String[] args) {
