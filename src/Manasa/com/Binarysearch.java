@@ -16,6 +16,19 @@ public class Binarysearch {
          for(int i=0;i<arr.length;i++){
              arr[i]=input.nextInt();
          }
-
+    }
+    static int binarysearchh(int[] arr){
+//        int search=arr[i];
+//        int mid=(0+arr.length-1)/2;
+        for(int i=0;i<arr.length;i++){
+            int search=arr[i];
+            int mid=(0+arr.length-1)/2;
+            if(arr[mid]>search){
+                for(int x=mid;x<arr.length;x++){
+                    search=arr[x];
+                }
+            }
+        }
+        return search;
     }
 }
