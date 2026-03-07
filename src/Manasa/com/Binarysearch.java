@@ -24,7 +24,19 @@ public class Binarysearch {
         while(start<=end){
             //fin the middle element
             //int mid=(start+end)/2;  it may give us an eroor because start + end may give big value so
+            int mid=start+(end-start)/2;
+            if(target<mid){
+                end=mid-1;
+
+            }
+            else if(target>mid){
+                start=mid+1;
+            }
+            else{
+                return mid;
+            }
 
         }
+        return -1;
     }
 }
