@@ -17,6 +17,8 @@ public class Binarysearch {
              arr[i]=input.nextInt();
          }
          int target =input.nextInt();
+        int ans= binarysearchh(arr,target);
+        System.out.println(ans);
     }
     static int binarysearchh(int[] arr, int target){
         int start =0;
