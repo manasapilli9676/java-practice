@@ -12,10 +12,13 @@ public class Binarysearch {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
          int x=input.nextInt();
+        System.out.println("enter the size of array");
          int[] arr=new int[x];
+        System.out.println("enter the values");
          for(int i=0;i<arr.length;i++){
              arr[i]=input.nextInt();
          }
+        System.out.println("give the elment to find the value");
          int target =input.nextInt();
         int ans= binarysearchh(arr,target);
         System.out.println(ans);
