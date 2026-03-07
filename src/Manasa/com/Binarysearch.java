@@ -11,8 +11,9 @@ import java.util.Arrays;
 public class Binarysearch {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-         int x=input.nextInt();
         System.out.println("enter the size of array");
+         int x=input.nextInt();
+
          int[] arr=new int[x];
         System.out.println("enter the values");
          for(int i=0;i<arr.length;i++){
