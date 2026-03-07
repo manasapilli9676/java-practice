@@ -22,7 +22,7 @@ public class Binarysearch {
         System.out.println("give the elment to find the value");
          int target =input.nextInt();
         int ans= binarysearchh(arr,target);
-        System.out.println(ans);
+        System.out.println("the required value index is "+ans);
     }
     static int binarysearchh(int[] arr, int target){
         int start =0;
@@ -31,11 +31,11 @@ public class Binarysearch {
             //fin the middle element
             //int mid=(start+end)/2;  it may give us an eroor because start + end may give big value so
             int mid=start+(end-start)/2;
-            if(target<mid){
+            if(target<arr[mid]){
                 end=mid-1;
 
             }
-            else if(target>mid){
+            else if(target>arr[mid]){
                 start=mid+1;
             }
             else{
