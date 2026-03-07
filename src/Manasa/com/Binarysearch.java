@@ -17,20 +17,14 @@ public class Binarysearch {
              arr[i]=input.nextInt();
          }
          int target =input.nextInt();
-
     }
     static int binarysearchh(int[] arr, int target){
-//        int search=arr[i];
-//        int mid=(0+arr.length-1)/2;
-        for(int i=0;i<arr.length;i++){
-            int search=arr[i];
-            int mid=(0+arr.length-1)/2;
-            if(arr[mid]>search){
-                for(int x=mid;x<arr.length;x++){
-                    search=arr[x];
-                }
-            }
+        int start =0;
+        int end=arr.length-1;
+        while(start<=end){
+            //fin the middle element
+            //int mid=(start+end)/2;  it may give us an eroor because start + end may give big value so
+
         }
-        return search;
     }
 }
