@@ -8,7 +8,7 @@ import java.util.Scanner;
  * if target==mid
  * */
 import java.util.Arrays;
-public class Celingfunction {
+public class floar {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("enter the size of array");
@@ -21,15 +21,12 @@ public class Celingfunction {
         }
         System.out.println("give the elment to find the value");
         int target =input.nextInt();
-        int ans= celingfunction(arr,target);
+        int ans= floarfunction(arr,target);
         System.out.println("the required value index is "+ans);
     }
-    static int celingfunction(int[] arr, int target){
+    static int floarfunction(int[] arr, int target){
         int start =0;
         int end=arr.length-1;
-        if(target>arr[arr.length-1]){
-            return -1;
-        }
         while(start<=end){
             //fin the middle element
             //int mid=(start+end)/2;  it may give us an eroor because start + end may give big value so
@@ -46,7 +43,7 @@ public class Celingfunction {
             }
 
         }
-        return start;
+        return end;
     }
 }
 //if the
