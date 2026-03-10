@@ -13,7 +13,6 @@ public class Binarysearch {
         Scanner input = new Scanner(System.in);
         System.out.println("enter the size of array");
          int x=input.nextInt();
-
          int[] arr=new int[x];
         System.out.println("enter the values");
          for(int i=0;i<arr.length;i++){
