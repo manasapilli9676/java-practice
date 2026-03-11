@@ -20,7 +20,8 @@ public class Findfirstandpositionofelementinsortedarray {
         while(start<=end){
             int mid=(start+end)/2;
             if(target<arr[mid]){
-
+                end=mid-1;
+                if(target==arr[])
             }
         }
     }
