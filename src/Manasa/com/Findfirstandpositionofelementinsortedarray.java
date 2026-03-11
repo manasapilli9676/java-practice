@@ -21,7 +21,31 @@ public class Findfirstandpositionofelementinsortedarray {
             int mid=(start+end)/2;
             if(target<arr[mid]){
                 end=mid-1;
-                if(target==arr[])
+            }
+            else if(target>arr[mid]){
+                start=mid+1;
+            }
+            else{
+                //potential answer is found
+                return mid;
+            }
+        }
+        return -1;
+    }
+    int search(int[] arr,int target,boolean findstartindex){
+        int start=0;
+        int end=arr.length;
+        while(start<=end){
+            int mid=(start+end)/2;
+            if(target<arr[mid]){
+                end=mid-1;
+            }
+            else if(target>arr[mid]){
+                start=mid+1;
+            }
+            else{
+                //potential answer is found
+                return mid;
             }
         }
     }
