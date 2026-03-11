@@ -14,29 +14,17 @@ public class Findfirstandpositionofelementinsortedarray {
         }
         System.out.println("enter the target element");
     }
-    static int search(int[] arr,int target){
-        int start=0;
-        int end=arr.length;
-        while(start<=end){
-            int mid=(start+end)/2;
-            if(target<arr[mid]){
-                end=mid-1;
-            }
-            else if(target>arr[mid]){
-                start=mid+1;
-            }
-            else{
-                //potential answer is found
-                return mid;
-            }
-        }
-        return -1;
+    public int[] searchrange(int[] arr,int target){
+      int[] ans={-1,-1};
+      int start=search(arr,target,findstartindex);
+      int end=search(arr,target,findstartindex);
     }
     int search(int[] arr,int target,boolean findstartindex){
+        int ans=-1;
         int start=0;
         int end=arr.length;
         while(start<=end){
-            int mid=(start+end)/2;
+            int mid=start+(end-start)/2;
             if(target<arr[mid]){
                 end=mid-1;
             }
@@ -45,8 +33,9 @@ public class Findfirstandpositionofelementinsortedarray {
             }
             else{
                 //potential answer is found
-                return mid;
+                ans=mid;
             }
         }
+        return ans;
     }
 }
