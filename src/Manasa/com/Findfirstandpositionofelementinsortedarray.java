@@ -14,8 +14,8 @@ public class Findfirstandpositionofelementinsortedarray {
         }
         System.out.println("enter the target element");
         int target=input.nextInt();
-        int[] ans=searchrange(arr,target);
-        System.out.println(Arrays.toString(ans));
+
+
     }
     //manager method
     public int[] searchrange(int[] arr,int target){
@@ -46,7 +46,7 @@ public class Findfirstandpositionofelementinsortedarray {
                     end=mid-1;
 
                 }else{
-v
+
 
                 }
             }
