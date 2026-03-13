@@ -46,7 +46,7 @@ public class Findfirstandpositionofelementinsortedarray {
                     end=mid-1;
 
                 }else{
-
+v
 
                 }
             }
