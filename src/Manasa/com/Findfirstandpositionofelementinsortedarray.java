@@ -13,7 +13,11 @@ public class Findfirstandpositionofelementinsortedarray {
             arr[i]=input.nextInt();
         }
         System.out.println("enter the target element");
+        int target=input.nextInt();
+        int[] ans=searchrange(arr,target);
+        System.out.println(Arrays.toString(ans));
     }
+    //manager method
     public int[] searchrange(int[] arr,int target){
       int[] ans={-1,-1};
       int start=search(arr,target,true);
@@ -22,10 +26,11 @@ public class Findfirstandpositionofelementinsortedarray {
       ans[1]=end;
       return ans;
     }
+    //worker method
     int search(int[] arr,int target,boolean findstartindex){
         int ans=-1;
         int start=0;
-        int end=arr.length;
+        int end=arr.length-1;
         while(start<=end){
             int mid=start+(end-start)/2;
             if(target<arr[mid]){
