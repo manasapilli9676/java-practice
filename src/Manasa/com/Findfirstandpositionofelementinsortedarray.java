@@ -16,8 +16,11 @@ public class Findfirstandpositionofelementinsortedarray {
     }
     public int[] searchrange(int[] arr,int target){
       int[] ans={-1,-1};
-      int start=search(arr,target,findstartindex);
-      int end=search(arr,target,findstartindex);
+      int start=search(arr,target,true);
+      int end=search(arr,target,false);
+      ans[0]=start;
+      ans[1]=end;
+      return ans;
     }
     int search(int[] arr,int target,boolean findstartindex){
         int ans=-1;
