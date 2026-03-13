@@ -42,6 +42,13 @@ public class Findfirstandpositionofelementinsortedarray {
             else{
                 //potential answer is found
                 ans=mid;
+                if(findstartindex){
+                    end=mid-1;
+
+                }else{
+
+
+                }
             }
         }
         return ans;
