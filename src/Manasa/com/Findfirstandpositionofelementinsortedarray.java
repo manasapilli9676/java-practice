@@ -47,7 +47,6 @@ public class Findfirstandpositionofelementinsortedarray {
 
                 }else{
 start=mid+1;
-
                 }
             }
         }
