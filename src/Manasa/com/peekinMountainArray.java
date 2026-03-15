@@ -9,7 +9,7 @@ public class peekinMountainArray {
         //no dublicate array
         int[] arr=new int[x];
         for(int i =0;i<arr.length;i++){
-
+//
         }
 
     }
