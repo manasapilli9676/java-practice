@@ -32,5 +32,4 @@ public class peekinMountainArray {
         //where the start==end at the end of the array search so
     }
 
-//    }
 }
