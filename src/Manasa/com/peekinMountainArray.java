@@ -31,10 +31,6 @@ public class peekinMountainArray {
         return start;
         //where the start==end at the end of the array search so
     }
-e{
-//                newend=mid;
-//            }
-//        }
 //        while(newstart<newend){
 //            if(arr[])
 //        }
