@@ -31,11 +31,7 @@ public class peekinMountainArray {
         return start;
         //where the start==end at the end of the array search so
     }
-//    static int binarysearch(int[] arr,int target,int newstart,int newend){
-//        int start=0;
-//        int end=arr.length-1;
-////        int newstart=0;
-////        int newend=0;
+
 //        while(start<end) {
 //            int mid = start + (end - start) / 2;
 //            if(arr[mid]<arr[mid+1]){
