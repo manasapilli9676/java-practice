@@ -31,9 +31,6 @@ public class peekinMountainArray {
         return start;
         //where the start==end at the end of the array search so
     }
-//        while(newstart<newend){
-//            if(arr[])
-//        }
-//
+
 //    }
 }
