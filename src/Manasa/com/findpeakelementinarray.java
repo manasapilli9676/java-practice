@@ -17,6 +17,7 @@ public class findpeakelementinarray {
         System.out.println(ans);
     }//
     //in the end start and end point to the same value
+    //
     // the same loop will repreat until the resulted andwer is found
     static int findingpeakofanarray(int[] arr,int target){
         int start=0;
