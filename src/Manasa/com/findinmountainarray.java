@@ -20,7 +20,7 @@ public class findinmountainarray {
         }
         return orderagnostic(arr,target,peak+1,arr.length-1);
     }
-//    static int peakindexoftheelement(int[] arr){
+    static int peakindexoftheelement(int[] arr){
         int start=0;
         int end= arr.length-1;
         while(start<end){
