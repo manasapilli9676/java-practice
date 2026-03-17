@@ -18,7 +18,7 @@ public class findinmountainarray {
         if(firstTry!=-1){
             return firstTry;
         }
-//        return orderagnostic(arr,target,peak+1,arr.length-1);
+        return orderagnostic(arr,target,peak+1,arr.length-1);
     }
     static int peakindexoftheelement(int[] arr){
         int start=0;
