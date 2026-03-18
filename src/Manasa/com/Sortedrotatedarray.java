@@ -14,7 +14,7 @@ public class Sortedrotatedarray {
                 start=mid+1;
             }
             else{
-                end=start;
+                end=mid;
             }
         }
         return start;
