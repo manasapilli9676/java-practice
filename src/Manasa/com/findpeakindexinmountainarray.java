@@ -11,6 +11,7 @@ public class findpeakindexinmountainarray {
         int[] arr=new int[x];
         for(int i =0;i<arr.length;i++){
             arr[i]=input.nextInt();
+
         }
         int target=input.nextInt();
         int ans=findingpeakofanarray(arr,target);
