@@ -11,6 +11,7 @@ public class findinmountainarray {
         System.out.println("Element found at index: " + result);
 
 
+
     }
      int search(int[] arr,int target){
         int peak=peakindexoftheelement(arr);
