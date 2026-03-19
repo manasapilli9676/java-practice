@@ -6,6 +6,7 @@ public class findpeakelementinarray {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         int x=input.nextInt();
+
         //for binary search array must be sorted
         //no dublicate array
         int[] arr=new int[x];
