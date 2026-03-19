@@ -5,6 +5,7 @@ public class Functions {
         int ans=sum2(20,4);
         System.out.println(ans);
 
+
     }
     //pass the value of number when  you are calling the method in main()
     //by using this ,input statement decrease then the hence we can give with only single statement
