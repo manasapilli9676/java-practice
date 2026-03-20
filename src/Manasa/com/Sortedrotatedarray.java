@@ -15,7 +15,15 @@ public class Sortedrotatedarray {
             //just do normal binary search
             return binarysearch(arr,target,start,end);
         }
-
+        //if pivot is found you have found 2 asc sorted arrays
+        if(arr[pivot]==target){
+            return pivot;
+        }
+        if(target>arr[start]){
+            return binarysearch(arr,target,0,pivot-1);
+        }else{
+            return binarysearch(arr,target,pivot+1,arr.length-1);
+        }
     }
     static int binarysearch(int[] arr,int target,int start,int end){
 
