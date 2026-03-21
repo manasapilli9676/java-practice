@@ -4,7 +4,6 @@ public class Sortedrotatedarray {
     public static void main(String[] args) {
         int[] arr={4,5,6,7,0,1,2};
         System.out.println(pivote(arr));
-        int target=
     }
     //here for finding the target element we are using 5 approaches so
     //first one is find pivote elemet using it we can solve by two cases
