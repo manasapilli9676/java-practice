@@ -10,8 +10,6 @@ public class findinmountainarray {
         int result = obj.search(arr, target);
         System.out.println("Element found at index: " + result);
 
-
-
     }
      int search(int[] arr,int target){
         int peak=peakindexoftheelement(arr);
