@@ -7,6 +7,7 @@ public class Smallestlettergreaterthantarget  {
         System.out.println("enter the size of arr");
         int x=input.nextInt();
        char[] arr=new char[x];
+
         System.out.println("give the inputs");
         for(int i=0;i<arr.length;i++){
             arr[i]=input.next().charAt(0);
