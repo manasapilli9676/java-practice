@@ -1,7 +1,6 @@
 package Manasa.com;
 import java.util.Scanner;
 //peak index in mountain array
-
 public class findpeakelementinarray {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
