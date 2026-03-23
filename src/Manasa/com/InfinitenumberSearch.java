@@ -8,7 +8,6 @@ public class InfinitenumberSearch{
         int target=78;
         int anss=targeeet(arr,target);
         System.out.println(anss);
-
     }
     static int targeeet(int[] arr,int target){
         int start=0;
