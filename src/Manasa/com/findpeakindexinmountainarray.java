@@ -3,6 +3,7 @@ import java.util.Scanner;
 //peak index in mountain array
 
 public class findpeakindexinmountainarray {
+
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         int x=input.nextInt();
