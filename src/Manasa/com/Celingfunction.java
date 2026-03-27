@@ -23,6 +23,7 @@ public class Celingfunction {
         int target =input.nextInt();
         int ans= celingfunction(arr,target);
         System.out.println("the required value index is "+ans);
+
     }
     static int celingfunction(int[] arr, int target){
         int start =0;
