@@ -7,6 +7,7 @@ public class OrderAgnostics {
         System.out.println("enter the size of array");
         int x = input.nextInt();
         System.out.println("enter the values");
+
         {
             int[] arr = new int[x];
             for (int i = 0; i < arr.length; i++) {
