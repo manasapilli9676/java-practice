@@ -23,6 +23,7 @@ public class Binarysearch {
         int ans= binarysearchh(arr,target);
         System.out.println("the required value index is "+ans);
     }
+
     static int binarysearchh(int[] arr, int target){
         int start =0;
         int end=arr.length-1;
