@@ -9,6 +9,7 @@ import java.util.Scanner;
  * */
 import java.util.Arrays;
 public class floar {
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("enter the size of array");
