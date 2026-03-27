@@ -5,6 +5,7 @@ public class HowManyNumbersAreSmallerThantheCurrentNumber {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         int num=0;
+
         int x=input.nextInt();
         int[] arr1=new int[x];
 int i=0;
