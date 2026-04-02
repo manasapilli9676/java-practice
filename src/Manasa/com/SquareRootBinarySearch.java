@@ -8,11 +8,9 @@ public class SquareRootBinarySearch {
 
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
-
         double result = sqrtBinarySearch(num);
         System.out.println("Square root of " + num + " is: " + result);
     }
-
     public static double sqrtBinarySearch(int num) {
         double low = 0;
         double high = num;
