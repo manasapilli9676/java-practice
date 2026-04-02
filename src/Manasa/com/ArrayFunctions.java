@@ -9,7 +9,6 @@ public class ArrayFunctions {
         change(nums);
         System.out.println(Arrays.toString(nums));
     }
-
     static void change(int[] nums){
 //        arr[0]=3;
 //        arr[1]=32;
