@@ -15,7 +15,6 @@ public class ArrayFunctions {
 //        arr[2]=44;
 //        arr[3]=56;
 //        arr[4]=435;
-//
 //        System.out.println(arr[2]);
         nums[3]=20;
     }
