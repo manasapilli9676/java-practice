@@ -8,7 +8,6 @@ public class SearchIn2darray {
                 {1, 2, 3, 4 },
                 {12,45,64,65},
                 {43,54,76,34},
-
         };
         int target=64;
     }
