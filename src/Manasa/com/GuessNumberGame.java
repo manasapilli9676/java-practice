@@ -1,12 +1,10 @@
 package Manasa.com;
 import java.util.Random;
 import java.util.Scanner;
-
 public class GuessNumberGame {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Random rand = new Random();
-
         int numberToGuess = rand.nextInt(100) + 1; // 1 to 100
         int userGuess = 0;
         int attempts = 0;
