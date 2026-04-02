@@ -1,7 +1,6 @@
 package Manasa.com;
 import java.util.Scanner;
 import java.util.Arrays;
-
 public class Maxvalue {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
@@ -15,7 +14,6 @@ public class Maxvalue {
         //person=row
         //account=col
         int ans=Integer.MIN_VALUE;
-
         for(int person=0;person<accounts.length;person++){
             //when i start a new col take a new sum for that row
             int sum=0;
