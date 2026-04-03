@@ -6,6 +6,7 @@ public class MultidimentionalArraylist {
         Scanner input=new Scanner(System.in);
         ArrayList<ArrayList<Integer>> list=new ArrayList<>();
 //        list.add(new ArrayList<>());
+
         for(int i=0;i<3;i++){
             list.add(new ArrayList<>());
         }
