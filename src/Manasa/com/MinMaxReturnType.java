@@ -5,6 +5,7 @@ public class MinMaxReturnType {
         Scanner input=new Scanner(System.in);
         int num1=input.nextInt();
         int num2=input.nextInt();
+
         int num3=input.nextInt();
         int maximum=max(num1,num2,num3);
         int minimum=min(num1,num2,num3);
