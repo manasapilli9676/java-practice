@@ -4,7 +4,6 @@ import java.util.Arrays;
 public class SearchIn2darray {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
         int[][] arr={
                 {1, 2, 3, 4 },
                 {12,45,64,65},
