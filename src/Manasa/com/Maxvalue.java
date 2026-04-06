@@ -3,7 +3,6 @@ import java.util.Scanner;
 import java.util.Arrays;
 public class Maxvalue {
     public static void main(String[] args) {
-
         Scanner input=new Scanner(System.in);
         int[][] accounts={{7,6,5},
                 {5,7,5},
