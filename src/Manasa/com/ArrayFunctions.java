@@ -2,6 +2,7 @@ package Manasa.com;
 import java.util.Scanner;
 import java.util.Arrays;
 public class ArrayFunctions {
+
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         int[] nums={2,3,4,5,6,5};
