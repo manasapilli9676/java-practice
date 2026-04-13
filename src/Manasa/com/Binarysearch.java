@@ -40,6 +40,7 @@ public class Binarysearch {
             }
             else{
                 return mid;
+
             }
 
         }
