@@ -8,8 +8,10 @@ public class ForLoopFibonacci {
 
         int a = 0;
         int b = 1;
-        System.out.println(a);
-        for (int i=0;i<num;i++) {
+//        System.out.println(a);
+//        System.out.println(b);
+        for (int i=0;i<num-2;i++) {
+            System.out.println(a);
             int next=a+b;
             a = b;
             b = next;
